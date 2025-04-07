@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spin wheel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./locale.js" type="module"></script>
+    <script src="./script.js" type="module" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <img src="./images/tecLogoLtext.png" alt="" class="logo" />
+        <h1 class="text">!جرب حظك</h1>
+      </section>
+      <section class="game">
+        <div class="container">
+          <div class="holder"></div>
+          <button class="spinBtn">
+            <img src="./images/1.png" alt="" />
+          </button>
+          <div class="wheel">
+            <div class="accomp" style="--i: 1; --clr: #0d02c8">
+              <p class="wheel__text">ONE</p>
+            </div>
+            <div class="accomp" style="--i: 2; --clr: #2f0b6c">
+              <p class="wheel__text">TWO</p>
+            </div>
+            <div class="accomp" style="--i: 3; --clr: #db4437">
+              <p class="wheel__text">THREE</p>
+            </div>
+            <div class="accomp" style="--i: 4; --clr: #0d02c8">
+              <p class="wheel__text">FOUR</p>
+            </div>
+            <div class="accomp" style="--i: 5; --clr: #2f0b6c">
+              <p class="wheel__text">FIVE</p>
+            </div>
+            <div class="accomp" style="--i: 6; --clr: #db4437">
+              <p class="wheel__text">SIX</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="modalOverlay hideModal"></div>
+    <div class="modal hideModal">
+      <h2 class="modalHeading">!أنتبه</h2>
+      <span>لا تفتح اي رابط قبل ما تتأكد, ترا مو كل شي امن وممكن تعرض بياناتك للخطر</span>
+      <p class="modalText"></p>
+      <a href="https://x.com/TechNationClubb">احضر معنا ملتقى سلوكك هو مستقبلك</a>
+    </div>
+  </body>
+  
+</html>
